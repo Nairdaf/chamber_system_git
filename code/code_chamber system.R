@@ -17,6 +17,8 @@ scale_data <- read_csv("data/cs_pub_scale.csv")
 manual_data <- read_csv("data/cs_pub_runs_manual.csv")
 runs_data <- read_csv("data/cs_pub_runs.csv")
 runs_g_data <- read_csv("data/cs_pub_runs_gather.csv")
+#runs_g_data$parameter[runs_g_data$parameter == "TRUE"] <- "T" # change TRUE to T
+
 
 
 
